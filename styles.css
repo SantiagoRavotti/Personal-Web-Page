@@ -419,6 +419,12 @@ section .title::after {
     transition: all 0.3s ease;
     background-position: center;
 }
+.portfolio .port-content .card a:visited {
+      color: #fff;
+}
+.portfolio .port-content .card a:link {
+      color: #fff;
+}
 
 .portfolio .port-content .card-younger:hover {
     background: url("images/Younger.png");
