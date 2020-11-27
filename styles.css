@@ -360,7 +360,7 @@ section .title::after {
 
 .portfolio .title::after {
     background: #2d3436;
-    content: "what i can do";
+    content: "some of my work";
 }
 
 .portfolio .port-content .card {
