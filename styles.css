@@ -266,7 +266,7 @@ section .title::after {
 }
 
 .about .about-content .left img {
-    height: 400px;
+    height: 500px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -411,34 +411,52 @@ section .title::after {
 
 .portfolio .port-content .card {
     width: calc(33% - 20px);
-    background: #222;
+    background: rgb(78, 8, 68);
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    background-position: center;
 }
 
-.portfolio .port-content .card:hover {
-    background: rgb(78, 8, 68);
+.portfolio .port-content .card-younger:hover {
+    background: url("images/Younger.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .port-content .card-form:hover {
+    background: url("images/contact-form.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.portfolio .port-content .card-game:hover {
+    background: url("images/game-page.png");
+    background-size: cover;
+    background-position: center;
+
 }
 
 .portfolio .port-content .card .box {
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
 }
 
 .portfolio .port-content .card:hover .box {
     transform: scale(1.05);
+    color: rgb(78, 8, 68);
 }
 
 .portfolio .port-content .card i {
     font-size: 50px;
-    color: rgb(78, 8, 68);
+    color: #fff;
     transition: color 0.3s ease;
 }
 
 .portfolio .port-content .card:hover i {
-    color: #fff;
+    color: rgb(78, 8, 68);
 }
 
 .portfolio .port-content .card .text {
